@@ -9,6 +9,7 @@
 #c) quantidade de mulheres com salário até R$1000,00.
 # ● Encerre a entrada de dados quando for digitada uma idade negativa.
 
+print('-'*50)
 s = ''
 
 while (s != 'não'):
@@ -29,3 +30,4 @@ while (s != 'não'):
     print ('A menor idade dos entrevistados é:',min(idade1, idade2, idade3))
     print ('E a maior idade é:',max(idade1, idade2, idade3))
     s = input('Deseja continuar? ')
+    
